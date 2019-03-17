@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: guestbook
-          image: kubernetes/guestbook
+          image: kubernetes/guestbook:v2
           ports:
             - containerPort: 80
   replicas: 2
